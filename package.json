@@ -2,8 +2,8 @@
   "name": "ebidir",
   "version": "1.0.0",
   "engines": {
-    "node": "v16.14.0",
-    "npm": "8.1.3"
+    "node": "v20.9.0",
+    "npm": "10.1.0"
   },
   "description": "Full Stack E-Bidir",
   "main": "backend/server.js",
