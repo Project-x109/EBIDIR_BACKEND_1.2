@@ -28,7 +28,7 @@ app.use(function(req,res){
   res.status(404).json({message:"The link you privided is broken"});
 });
 const corsOptions = {
-  origin: "https://e-bidir.com/",
+  origin: "https://ebidirfrontend.netlify.app",
   credentials: true, //
   optionSuccessStatus: 200,
 };
