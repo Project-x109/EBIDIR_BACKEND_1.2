@@ -126,7 +126,7 @@ app.post("/uploadProfilePicture", function (req, res, next) {
 });
 
 // deployment
-/* __dirname = path.resolve();
+__dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/frontend/build")));
 
@@ -134,11 +134,6 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
   });
 } else {
-  app.get("/", (req, res) => {
-    res.send("Server is Running! 🚀");
-  });
-} */
-if (process.env.NODE_ENV !== "production") {
   app.get("/", (req, res) => {
     res.send("Server is Running! 🚀");
   });
